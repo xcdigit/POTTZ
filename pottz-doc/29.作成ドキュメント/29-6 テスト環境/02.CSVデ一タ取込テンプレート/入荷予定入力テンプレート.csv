@@ -1,0 +1,5 @@
+id,receive_no,order_no,rcv_sch_date,receive_kbn,supplier_id,name,name_kana,postal_cd,addr_1,addr_2,addr_3,addr_tel,customer_fax,note1,note2,csv_kbn,company_id,importerror_flg,
+21,1,1A12345,2024/1/25,1,1,仕入先_名称muzd,1,1,1,1,1,1,1,1,1,1,1,,
+
+id,receive_id,receive_line_no,product_id,product_num,product_price,check_num,store_num,check_kbn,store_kbn,confirm_kbn,note1,note2,importerror_flg,,,,,
+51,21,1,4,1,1,1,1,1,1,1,1,1,1,,,,,

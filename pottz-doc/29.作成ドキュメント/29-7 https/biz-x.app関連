@@ -1,0 +1,17 @@
+パスフレーズ：Brix.bx.01
+
+Country Name (2 letter code) [AU]:JP
+State or Province Name (full name) []:Tokyo
+Locality Name (eg, city) []:Minato-Ku
+Organization Name (eg, company) []:BX CORPORATION
+Organizational Unit Name (eg, section) []:IT-SOL
+Common Name (eg, YOUR name) []:*.biz-x.app
+以降、入力値なし
+
+
+证书做成说明
+https://www.ssl.ph/help/manual/instal/nginx+openssl.html
+
+
+生成免密码 key
+openssl rsa -in biz-x.app.key -passin pass:Brix.bx.01 -out pass.biz-x.app.key

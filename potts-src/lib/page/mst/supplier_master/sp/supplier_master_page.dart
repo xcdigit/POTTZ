@@ -1,0 +1,58 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_redux/flutter_redux.dart';
+import 'package:wms/page/mst/supplier_master/bloc/supplier_master_bloc.dart';
+import 'package:wms/page/mst/supplier_master/bloc/supplier_master_model.dart';
+import '../../../../redux/wms_state.dart';
+import 'supplier_master_query.dart';
+import 'supplier_master_table.dart';
+
+/**
+* 内容：仕入先マスタ管理 -页面
+ * 作者：王光顺
+ * 时间：2023/11/22
+ */
+class SupplierMasterPage extends StatefulWidget {
+  const SupplierMasterPage({super.key});
+
+  @override
+  State<SupplierMasterPage> createState() => _SupplierMasterPageState();
+}
+
+class _SupplierMasterPageState extends State<SupplierMasterPage> {
+  @override
+  Widget build(BuildContext context) {
+    //获取当前登录用户会社ID
+    int companyId = 0;
+
+    if (StoreProvider.of<WMSState>(context).state.loginUser!.company_id !=
+        null) {
+      companyId =
+          StoreProvider.of<WMSState>(context).state.loginUser!.company_id!;
+    }
+    int roleId = StoreProvider.of<WMSState>(context).state.loginUser!.role_id!;
+    return BlocProvider<SupplierMasterBloc>(
+      create: (context) {
+        return SupplierMasterBloc(
+          SupplierMasterModel(
+              context: context, companyId: companyId, roleId: roleId),
+        );
+      },
+      child: FractionallySizedBox(
+        heightFactor: 1,
+        widthFactor: 1,
+        child: Container(
+          padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
+          child: ListView(
+            children: [
+              //搜索
+              SupplierMasterQuery(),
+              // //表格
+              SupplierMasterTable(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

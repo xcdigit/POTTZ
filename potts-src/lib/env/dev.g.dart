@@ -1,0 +1,24 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'dev.dart';
+
+// **************************************************************************
+// JsonLiteralGenerator
+// **************************************************************************
+
+const _$configJsonLiteral = {
+  'env': 'dev',
+  '//develop': 'develop',
+  'supabase_url': 'https://culnohqxtcpbghvuvetv.supabase.co',
+  'supabase_anon_key':
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1bG5vaHF4dGNwYmdodnV2ZXR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTA1MzE4MzEsImV4cCI6MjAwNjEwNzgzMX0.wH_RUm0RgO846tIsEnDBu04Zl1MIS0snPoTznZyrPjw',
+  'supabase_role_key':
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1bG5vaHF4dGNwYmdodnV2ZXR2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5MDUzMTgzMSwiZXhwIjoyMDA2MTA3ODMxfQ.t3LquxJoZKPTwhO-LE9WeKTQYK7kwj_0m3a3a5NI3Sk',
+  '//master': 'master',
+  '_supabase_url': 'https://oianbeiuiprnkxybukox.supabase.co',
+  '_supabase_anon_key':
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9pYW5iZWl1aXBybmt4eWJ1a294Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjAwNzkwODUsImV4cCI6MjAzNTY1NTA4NX0.9hMbxOpboz0Fx4Xf6abG8XALkxF8YTcJrI62Q9zZbsc',
+  '_supabase_role_key':
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9pYW5iZWl1aXBybmt4eWJ1a294Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcyMDA3OTA4NSwiZXhwIjoyMDM1NjU1MDg1fQ.hdCAWqclrIlGzFZ3HxPi5mibAdwhcLTwSxpdO37bqu4',
+  'resend_api_key': 're_jGpo6VqX_33pFR5vkAGR4XNaGATRAzWSf'
+};

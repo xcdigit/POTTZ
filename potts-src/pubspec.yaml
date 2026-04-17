@@ -1,0 +1,142 @@
+name: wms
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  go_router: ^10.0.0
+  # flutter_native_splash: ^2.3.1
+  flutter_redux: ^0.10.0
+  supabase_flutter: ^1.10.6
+  json_annotation: ^4.8.1
+  android_intent: ^2.0.2
+  permission_handler: ^10.4.0
+  rxdart: ^0.27.7
+  google_fonts: ^5.1.0
+  flutter_form_builder: ^9.0.0
+  form_builder_validators: ^9.0.0
+  form_builder_file_picker: ^4.0.0
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  flutter_svg: ^2.0.7
+  flutter_bloc: ^8.1.3
+
+  # loading画面
+  bot_toast: ^4.0.4
+  
+  # 赵士淞 - 始
+  # 带检索输入框
+  flutter_typeahead: ^4.6.2
+  # CSV
+  csv: ^5.0.2
+  # 路径提供
+  path_provider: ^2.1.1
+  # 图片压缩
+  flutter_image_compress: ^2.0.4
+  # 年月选择器
+  month_picker_dialog: 2.2.1
+  # 生成条形码
+  barcode_widget: ^2.0.4
+  # 扫描
+  scan: ^1.6.0
+  # 图片选择
+  image_picker: ^1.0.2
+  # 
+  quiver: ^3.2.1
+  # 弹出框
+  popover: ^0.2.8+2
+  # URL跳转
+  url_launcher: ^6.1.14
+  # Stripe组件相关
+  crypto: ^3.0.0
+  http: ^1.0.0
+  meta: ^1.1.7
+  logging: ^1.0.1
+  dio: ^5.2.1
+  # 图表
+  syncfusion_flutter_charts: ^27.1.48
+  # 图表
+  fl_chart: ^0.68.0
+  #
+  intl: any
+
+  # 赵士淞 - 终
+
+  # 熊草云 - 始
+  # 条形码扫描
+  url_strategy: ^0.2.0
+  flutter_calendar_carousel: ^2.4.2
+  flutter_barcode_scanner: ^2.0.0
+  camera: ^0.10.5+3
+  qr_code_scanner: ^1.0.1
+  # 熊草云 - 终
+
+  # 卢新月 - 始
+  # 获取当前设备的IP地址的包
+  dart_ipify: ^1.1.1
+  # 卢新月 - 终
+
+  # 发送邮件 只能给自己发
+  resend_dart: ^1.0.1
+  # 打印用 蓝牙和wifi
+  # flutter_bluetooth_serial: ^0.4.0
+  # flutter_esc_pos_utils: ^1.0.0
+  # 随时可能出现问题 android版本问题↓↓↓↓↓↓↓↓
+  # flutter_bluetooth_basic: ^0.1.7
+  # 随时可能出现问题 android版本问题↑↑↑↑↑↑↑↑
+  # qr_flutter: ^4.0.0
+  # oktoast: ^3.0.0
+
+  # 二次认证
+  otp: ^3.1.4
+  # 生成二维码
+  qr_flutter: ^4.1.0
+  # 验证码
+  flutter_verification_code: ^1.1.7
+
+dependency_overrides:
+  rxdart: ^0.27.7
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/
+  - assets/images/
+  - assets/file/
+
+  fonts:
+    - family: wxcIconFont
+      fonts:
+        - asset: assets/font/iconfont.ttf
+    - family: google_kavivanar
+      fonts:
+        - asset: assets/font/google_kavivanar.ttf
+    - family: stkaiti
+      fonts:
+        - asset: assets/font/stkaiti.ttf

@@ -1,0 +1,25 @@
+代码：
+http://gitblit.yhzhg.cn/summary/?r=biz-x/potts-src.git
+文档：
+http://gitblit.yhzhg.cn/summary/?r=biz-x/potts-doc.git
+设计书：potts-doc\29.作成ドキュメント\29-2 基本設計\02入出力仕様
+边缘函数：
+http://gitblit.yhzhg.cn/summary/?r=biz-x/potts-supabase.git
+
+
+@张峰 峰哥，这是上次他们测试时用的环境，db是客户的supabase账号
+证书好像过期了，但是能用，要是不行，我到时候再整证书
+
+超级管理员登录网址：https://pottz.biz-x.app/loginAdmin
+超级管理员账号：admin@yhzhg.cn
+超级管理员密码：123456
+超级管理员Authentication Key：YQ7BSDOND4PD4LXY
+
+会社管理员/普通用户登录网址：https://pottz.biz-x.app/
+会社管理员账号：system@yhzhg.cn
+会社管理员密码：123456
+会社管理员Authentication Key：G254POWRHVUAPRHT
+普通用户账号：zhaoss@yhzhg.cn
+普通用户密码：123456
+普通用户Authentication Key：HKL3SEBENU54C6JX
+（上面两个账号隶属于同一家会社）

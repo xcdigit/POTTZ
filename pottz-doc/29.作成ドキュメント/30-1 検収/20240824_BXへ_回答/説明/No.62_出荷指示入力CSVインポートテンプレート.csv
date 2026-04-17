@@ -1,0 +1,5 @@
+id,order_no,rcv_sch_date,rcv_real_date,cus_rev_date,delivery_company_id,delivery_no,customer_id,customer_addr_id,customer_name,customer_name_kana,customer_postal_cd,customer_addr_1,customer_addr_2,customer_addr_3,customer_tel,customer_fax,name,name_kana,postal_cd,addr_1,addr_2,addr_3,addr_tel,fax,person,note1,note2
+1,SF2024090109150000,2024/9/1,2024/9/1,2024/9/1,,,,,诸葛亮,アア,116000,辽宁省,大连市甘井子区,中央大道1号,13500000000,13500000000,关云长,イイ,115000,辽宁省,沈阳市铁西区,中央花园1号,13600000000,13600000000,赵子龙,,
+
+id,ship_id,product_id,ship_num,product_price,warehouse_no,location_id,lock_num,store_num,check_num,packing_num,note1,note2,,,,,,,,,,,,,,,
+1,1,57,1,20000,東京倉庫,55,0,0,0,0,,,,,,,,,,,,,,,,,

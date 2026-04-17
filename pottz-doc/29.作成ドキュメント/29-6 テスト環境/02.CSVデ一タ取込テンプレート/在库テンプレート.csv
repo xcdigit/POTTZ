@@ -1,0 +1,5 @@
+id,product_id,year_month,stock,lock_stock,before_stock,in_stock,out_stock,adjust_stock,inventory_stock,move_in_stock,move_out_stock,return_stock,
+1,8,202312,11,0,0,0,0,0,0,0,0,0,
+
+id,location_id,stock_id,product_id,stock,lock_stock,limit_date,lot_no,serial_no,note,
+1,14,1,8,11,0,2024/12/1,1111,1111,1111,
